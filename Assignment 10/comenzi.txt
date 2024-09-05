@@ -1,0 +1,2 @@
+nasm 23_a.asm -fwin32 -o 23_a.obj
+cl 23.c /link 23_a.obj
